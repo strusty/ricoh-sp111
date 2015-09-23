@@ -1,12 +1,17 @@
 First of all, you bought wrong printer :) This "driver" is not in 
-production state. It was only an expirement.
+production state. It was only an experiment.
+
+Updated instructions for the installation is available at http://blog.droidzone.in/2015/09/23/install-ricoh-sp111-laser-printer-in-ubuntu/
 
 So, installation procedures:
 
 1) Open terminal, execute `check-requirements` script, you should see, that
    all required components are correctly installed and available.
 
-2) Install unavailable components
+2) Install unavailable components 
+
+Eg:
+sudo apt-get install jbigkit-bin inotify-tools
 
 3) Copy `pstoricohddst-gdi` to cups' filters directory (usually
    /usr/lib/cups/filter). 
