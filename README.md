@@ -1,4 +1,3 @@
-Driver and CUPS filter for Ricoh Aficio SP-100 and SP-200 family laser printers
+Driver and CUPS filter for Ricoh Aficio SP-111
 
-Current restrictions:
- - Does not count dots -- 1132782 per page hardcoded
+This is a roll-back to an old working version.  This is not supported anywhere.  Follow instructions at https://github.com/droidzone/ricoh-sp100/blob/master/INSTALL but use these two files.
